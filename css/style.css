@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif; ;
+    margin: 0;
+}
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(226, 43, 186);
+    box-shadow: 2px 2pz 2px rgb(226, 43, 186);
+    color: white;
+    background-color: rgb(226, 43, 186);
+}
+button:hover{
+    background-color: blueviolet;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+
+}
+.color-acento{color: rgb(226, 43, 186);}
+header{
+    background-color: rgb(245,245,245);
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(226, 43, 186);
+     font-size: 1.6em;
+
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+
+header nav{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.20em;}
+
+
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+
+header a:hover{
+    color:rgb(226, 43, 186);
+}
+
+
+.banner{
+background: url("../imagenes/programar.jpg");
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+height: 90vh;
+color:white;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+    
+}
+#banner h1{
+color: white;
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(226, 43, 186);
+     font-size: 1.6em;
+
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+
+header nav{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+
+header a:hover{
+    color:rgb(226, 43, 186);
+}
+#somos-adaitw .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+#nuestros-programas{
+ background-color:black; 
+color: white;
+text-align: center;
+
+}
+#nuestros-programas .container{
+    padding: 150px 12px;
+    
+
+}
+#nuestros-programas h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#nuestros-programas p{
+    display: none;
+
+}
+.nuestros-programas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+
+}
+    .carta:first-child{
+    background-image:url("../imagenes/foto.jpeg") ;
+    background-repeat: no-repeat;
+    }
+.carta:nth-child(2){
+    background-image: url("../imagenes/in.jpeg");
+    background-repeat: no-repeat;
+    
+}
+.carta:nth-child(3){
+    background-image: url("../imagenes/images.jpeg");
+    background-repeat: no-repeat;
+    
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+
+header nav{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+
+header a:hover{
+    color:rgb(226, 43, 186);
+}
+#aplica-ya{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(226,43,180);
+    color: white;
+    height: 80vh;
+
+}
+
+
+
+#aplica-ya h2{
+    font-size: 5vw;
+    
+}
+
+
+footer{
+    background-color:rgb(230, 230, 230);
+}
+
+
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+@media (min-width:70px){
+
+}
+
+header .container{
+    flex-direction: row;
+    justify-content: space-between;
+}
+header nav{
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+}
+#banner h1{
+    font-size: 5em;
+}
+#somos-adaitw .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+    #nav .container{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px
+
+}
+#somos-adaitw .texto{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#somos-adaitw h2{
+    margin-top: 0px;
+}
+
+#somos-adaitw .img-container{
+    background-image: url("../imagenes/foto.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px; 
+}
+#nuestros-programas .programas{
+    display: flex;
+    justify-content: center;
+}
+#nuestros-programas p{
+    display: block;
+    margin-bottom: 30px;
+}
+#nuestros-programas h2{
+    font-size: 4em;
+}
+#nuestros-programas h3{
+    margin-top: 0;
+}
+#nuestros-programas .carta{
+    padding: 50px;
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-color: rgba(50, 50, 50, 1);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+.carta:first-child{
+    background-image:url("../imagenes/foto.jpeg") ;
+    background-repeat: no-repeat;
+}
+
+.carta:nth-child(2){
+    background-image: url("../imagenes/in.jpeg");
+    background-repeat: no-repeat;
+    
+}
+.carta:nth-child(3){
+    background-image: url("../imagenes/images.jpeg");
+    background-repeat: no-repeat;
+    
+}
+
+
+#aplica-ya h2{
+    font-size: 5em;
+}
+#aplica-ya button{
+    font-size: 2em;
+}
+footer .container{
+    justify-content: flex-end;
+}
+
+@media (min-width: 1200px) {
+#caracteristicas{
+    background-position-x: calc(100vw - 800px);
+}
+}
